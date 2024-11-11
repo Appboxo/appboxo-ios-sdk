@@ -10,8 +10,21 @@
   - Swift projects must use Swift 4.2 or later.
   
   
+## Swift Package Manager installation
+
+Add a package by selecting `File` → `Add Packages…` in Xcode’s menu bar.
+
+Search for the AppBoxoSDK using the repo's URL:
+    
+    https://github.com/Appboxo/appboxo-ios-sdk.git
+
+
+Next, set the **Dependency Rule** to be `Up to Next Major Version`.
+
+Then, select **Add Package**.
   
-**CocoaPods installation**
+  
+## CocoaPods installation
     
    CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. 
    To integrate AppBoxoSDK into your Xcode project using CocoaPods, specify it in your Podfile:
